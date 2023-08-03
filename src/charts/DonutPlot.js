@@ -25,6 +25,9 @@ export function DonutPlot({ data }) {
         colorField: 'type',
         radius: 1,
         innerRadius: 0.64,
+        label: {
+            content: '',
+        },
         statistic: {
           title: {
             offsetY: -4,
